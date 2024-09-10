@@ -4,7 +4,7 @@
 This project is a facial recognition application built using Tkinter for the user interface, and it leverages the VGG-Face model to compare a user-uploaded image with the faces from the Labeled Faces in the Wild (LFW) dataset. The application finds the most similar face from the dataset and returns the match.
 
 
-##### **Feature**:
+#### **Feature**:
 
 Upload an image via a Tkinter-based interface
 
@@ -16,12 +16,12 @@ Displays the person from the dataset who most closely resembles the uploaded ima
 
 Efficient nearest neighbor search with FAISS for large-scale facial comparisons
 
-### **Install**:
+### **Installation**:
 
 Clone the repository:
 ```
 git clone https://github.com/yasmine586/Final-project-Face-recognition-system-using-VGGFace.git
-cd your-repo
+cd Final-project-Face-recognition-system-using-VGGFace
 ```
 
 Create a virtual environment and activate it:
@@ -38,6 +38,7 @@ Install the required packages:
 pip install -r requirements.txt
 
 ```
+## **Usage**
 Run the python script that generate the embedding (this can take around 2 hours because we have a large datasets)
 ```
 python create_embedding.py
@@ -49,6 +50,7 @@ python lfwgui.py
 
 ```
 There's also the jupyter notebook for further explanation
+
 
 
 
