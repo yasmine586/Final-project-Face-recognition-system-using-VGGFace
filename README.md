@@ -38,6 +38,12 @@ Install the required packages:
 pip install -r requirements.txt
 
 ```
+Run the python script that generate the embedding
+```
+python create_embedding.py
+
+```
+
 
 
 
