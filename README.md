@@ -12,7 +12,7 @@ Uses the pre-trained VGG-Face model to generate facial embeddings
 
 Compares the uploaded image to the LFW dataset using cosine similarity
 
-Displays the person from the dataset who most closely resembles the uploaded image
+Displays the name of the person from the dataset who most closely resembles the uploaded image
 
 Efficient nearest neighbor search with FAISS for large-scale facial comparisons
 
