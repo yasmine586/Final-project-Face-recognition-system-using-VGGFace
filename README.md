@@ -16,7 +16,7 @@ Displays the person from the dataset who most closely resembles the uploaded ima
 
 Efficient nearest neighbor search with FAISS for large-scale facial comparisons
 
-##### **Install**:
+### **Install**:
 
 Clone the repository:
 ```
@@ -38,11 +38,17 @@ Install the required packages:
 pip install -r requirements.txt
 
 ```
-Run the python script that generate the embedding
+Run the python script that generate the embedding (this can take around 2 hours because we have a large datasets)
 ```
 python create_embedding.py
 
 ```
+Run the python script that open the tkinter window
+```
+python lfwgui.py
+
+```
+There's also the jupyter notebook for further explanation
 
 
 
