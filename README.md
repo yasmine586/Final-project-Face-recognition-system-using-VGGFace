@@ -39,7 +39,7 @@ pip install -r requirements.txt
 
 ```
 ## **Usage**
-Run the python script that generate the embedding (this can take around 2 hours because we have a large datasets)(this step can be skipped as there's already a .idx file)
+Run the python script that generate the embedding (this can take around 2 hours because we have a large datasets)(this step can be skipped as there's already lfw_index_embedding.idx.idx file)
 ```
 python create_embedding.py
 
